@@ -1,8 +1,24 @@
-# React + Vite
+# Week7ReactProblems100xdevs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Week 7 React Problems
 
-Currently, two official plugins are available:
+### Problem 1
+create a profile component in reactJS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Problem 2
+create a background changer in reactJS
+
+### Problem 3
+create your custom react using JS and render anchor tag.
+
+### Problem 4
+create a paragraph generator which takes length of words in paragraph and generate paragraph.
+
+### Problem 5
+Using  https://api.github.com/users/${username} API render your GitHub information as your GitHub info Card.
+
+### Problem 6
+create a OTP Login in reactJS.
+
+### Problem 7
+create a birthday wisher site which takes a name of a person and render 2-3 birthday wish cards.
