@@ -1,14 +1,23 @@
-
 import './Problem3.css';
-const Problem3 = ()=>{
-    return(
-        <div>
-            <h1>Problem 2</h1>
-            <p>Write a function that takes a string as input and returns the string reversed.</p>
-            <p>Example:</p>
-            <p>hello</p>
+
+
+// create your custom react using JS and render anchor tag.
+
+// Hint 1:  In react we have a root element, here you have to create a HTML element and using JS render anchor tag.
+// 1.) Create an object for react element that has html anchor data
+// 2.) Create a function that generates html code from reactElement and returns the final html tag
+// 3.) Create a function customRender that takes in the object and the path of html where it will be rendered
+
+// Hint 2: In HTML file, create a root element and using JS Dynamically render the anchor text with any link or text.
+
+
+const Problem3 = () => {
+    return (
+        <div className="problem3">
+            <h2>Problem 3</h2>
         </div>
     )
 }
+
 
 export default Problem3;

@@ -1,0 +1,43 @@
+.problem4{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+}
+
+h2{
+    font-size: 2rem;
+    color: var(--color-primary);
+}
+
+.inputs{
+    display: flex;
+    justify-content: safe;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.inputs input{
+    padding: 0.5rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    width: 60%;
+}
+
+.inputs button{
+    padding: 0.6rem 1rem;
+    background-color: var(--color-secondary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.paragraph{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: var(--color-primary);
+    opacity: 0.8;
+    text-align: justify;
+    padding: 0 1rem;
+}
