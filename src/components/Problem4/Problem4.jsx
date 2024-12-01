@@ -24,7 +24,9 @@ const Problem4 = () => {
                 <input type="number" value={length} onChange={(e) => setLength(e.target.value)} />
                 <button onClick={() => setFlag(Math.random())}>Generate Paragraph</button>
             </div>
-            {flag && length > 0 && <p className='paragraph'>{paragraph}</p>}
+            {
+                paragraph.length > 0 && <p>{paragraph}</p>
+            }
         </div>
     );
 

@@ -1,0 +1,56 @@
+.P7Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+}
+
+.P7Container h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.P7Container input{
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.P7Container button{
+    width: 100%;
+    height: 2rem;
+    background-color: var(--color-primary);
+    color: var(--color-tertiary);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.P7Container button:hover{
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+.wishes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    color: #be0606;
+    width: 50%;
+
+    background-color: #f1f1f1;
+    padding: 1rem;
+    border-radius: 5px;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.4s;
+
+}
+
+/* Animate */
